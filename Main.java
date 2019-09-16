@@ -19,7 +19,7 @@ public class Main {
         short newShort = 10;
         int newInt = 10;
 
-        long newLong = 50000 + ((newByte + newShort + newInt) * 10);
+        long newLong = 50000L + 10L * ((newByte + newShort + newInt));
 
         System.out.println(newLong);
 
